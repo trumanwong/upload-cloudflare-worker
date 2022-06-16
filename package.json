@@ -1,0 +1,13 @@
+{
+  "name": "upload-cloudflare-worker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.110.0",
+    "wrangler": "2.0.12"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  }
+}

@@ -1,0 +1,11 @@
+name = "upload-cloudflare-worker"
+main = "src/index.js"
+compatibility_date = "2022-06-16"
+node_compat = true
+
+[vars]
+Region = "your region"
+Endpoint = "your endpoint"
+AccessKey = "your accessKey"
+SecretKey = "your secretKey"
+Bucket = "your bucket"
